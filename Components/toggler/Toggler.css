@@ -1,0 +1,36 @@
+.toggler{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #9c9c9c;
+    font-size: .8rem;
+}
+
+.toggler--slider{
+    position: relative;
+    width: 45px;
+    height: 21px;
+    border-radius: 30px;
+    padding: 3px;
+    background-color: white;
+}
+
+.toggler--slider--circle{
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 2px;
+    right: 2px;
+    border-radius: 30px;
+    background-color: #0b162e;
+}
+
+.dark--slider{
+    background-color: #0b162e;
+}
+
+.dark--slider--circle{
+    left: 2px;
+    background-color: #eee;
+}
